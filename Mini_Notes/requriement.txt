@@ -1,0 +1,30 @@
+fastapi
+uvicorn[standard]
+
+# database
+sqlalchemy
+
+# migrations (optional but professional)
+alembic
+
+# validation & settings
+pydantic
+pydantic-settings
+email-validator
+
+# auth & security
+python-jose[cryptography]
+passlib[bcrypt]
+
+# form handling (needed for OAuth2 login)
+python-multipart
+
+# environment variables
+python-dotenv
+
+# testing
+pytest
+httpx
+
+# optional but recommended
+typing-extensions
