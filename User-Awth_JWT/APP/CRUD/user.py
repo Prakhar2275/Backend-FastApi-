@@ -6,7 +6,7 @@ def create_user(db,email,username,password):
     user=User(
         email=email,
         username=username,
-        hash_password=hash_password(password)
+        hashed_password=hash_password(password)
     )
 
     db.add(user)
